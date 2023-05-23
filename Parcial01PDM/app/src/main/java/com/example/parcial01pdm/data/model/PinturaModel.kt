@@ -1,4 +1,6 @@
 package com.example.parcial01pdm.data.model
 
-class PinturaModel {
-}
+data class PinturaModel (
+    val name: String,
+    val autor: String
+        )
